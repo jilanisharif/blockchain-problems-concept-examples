@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "env",
+				"outputs": [
+					{
+						"internalType": "enum Enums.Environment",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isLive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushToProduction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushToStaging",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rollbackToSandbox",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/examples/EnumExample.sol": "Enums"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/examples/EnumExample.sol": {
+			"keccak256": "0xf50ef35fdea0708a6685af04038ad531b2dfce00d47e84b9874b2069599a0c97",
+			"urls": [
+				"bzz-raw://80f934a160bae98eea3a26a360168bd211a5b180a55c3064ba62c6f7c35a3fe9",
+				"dweb:/ipfs/QmS2ZL65upZfxgiBwhyyS1y15Ya5z4P9MBGYXiZPGbc4yD"
+			]
+		}
+	},
+	"version": 1
+}

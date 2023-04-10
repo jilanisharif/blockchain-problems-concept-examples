@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "createCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					}
+				],
+				"name": "decrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					}
+				],
+				"name": "deleteCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					}
+				],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AdvancedCounter.sol": "AdvancedCounter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AdvancedCounter.sol": {
+			"keccak256": "0x1b260d5b414e3851aef6c00f30982cfe1085717597451f7f9e7da9bac959b6ea",
+			"urls": [
+				"bzz-raw://fda61f3d833f8a49b2fe6253584bfa2e4e0a979a9fb77e2309878c405e3ec88e",
+				"dweb:/ipfs/QmXjX6HjPxA3sYSHPA7Bg9y92RfCycWHTFNXEToj9FPLs2"
+			]
+		}
+	},
+	"version": 1
+}

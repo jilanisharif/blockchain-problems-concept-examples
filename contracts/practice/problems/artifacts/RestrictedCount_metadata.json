@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/problems/modifiersProblem.sol": "RestrictedCount"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/problems/modifiersProblem.sol": {
+			"keccak256": "0xe5182cb9dd3dd75402d09d4cc52bfbb582d0d9917dd68ff690ea6b81780e7558",
+			"urls": [
+				"bzz-raw://b4d6a082eff1d360ddca586d152b20aa350e1327f88b86035a1df9c0da48512f",
+				"dweb:/ipfs/QmPqMxfg9eSY4YCMsg1djTiJ2NnxcrV37zb6TVHcDjpRVH"
+			]
+		}
+	},
+	"version": 1
+}

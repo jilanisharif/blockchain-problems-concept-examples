@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setAmount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/examples/modifiersExample.sol": "modifiers"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/examples/modifiersExample.sol": {
+			"keccak256": "0x2e36a59611ed4350731ea559d1cd214cd3200d57f3eaca431f0083b2e9f110a7",
+			"urls": [
+				"bzz-raw://df669288f4b6f7928c2ed8a56712ff16ed97479bed7d6e8e7fe7c94e8e038df4",
+				"dweb:/ipfs/QmQsxR4FC1iFpqfQtXa6hBAsKfeX6MTXfnempchGnm8WXf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "listName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "itemName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "addItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "createList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "listName",
+						"type": "string"
+					}
+				],
+				"name": "getItemNames",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getListNames",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/problems/ShoppingList.sol": "ShoppingList"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/problems/ShoppingList.sol": {
+			"keccak256": "0xed7bf8302ddb810e3df79dbc78710670001e417be5e0f4eec3306a5823cc38a8",
+			"urls": [
+				"bzz-raw://73ce3a7d26acf1723c731efd2b1456f6099b821f27529fdfd12cb835f48310fd",
+				"dweb:/ipfs/QmYBg6NX7vPaPTfaBXKsEQEC3eqcDHmSeYC9ULzvycrhzV"
+			]
+		}
+	},
+	"version": 1
+}

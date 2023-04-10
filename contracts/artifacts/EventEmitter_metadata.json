@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Called",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EventsProblem.sol": "EventEmitter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EventsProblem.sol": {
+			"keccak256": "0xccde2d4df8677594fb5257889e689152948b9100e73e9d22c8e484492784b1ea",
+			"urls": [
+				"bzz-raw://33d0ad05f3e228bff54016923169777f640a7eaa89f7b56a0f431fc201f8c233",
+				"dweb:/ipfs/QmdrkZPM6uYEj59BQCMHsk3zWFaKxbXGppA3pc1tJb9AkZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Size",
+						"name": "_size",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/examples/InheritanceExample.sol": "Shirt"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/examples/InheritanceExample.sol": {
+			"keccak256": "0xa0aa49ffdeed0c1f140477b8c840eb5f3d17aa483830c589b53af91b999337a7",
+			"urls": [
+				"bzz-raw://ed4e84eeb76781bb3ee395a53b6da4709b07d0893864b9028805779eeda4d883",
+				"dweb:/ipfs/QmdsC54WRP5V78BaPPS5EVji9aaCTvivgU4fLVUWkaMNPM"
+			]
+		}
+	},
+	"version": 1
+}

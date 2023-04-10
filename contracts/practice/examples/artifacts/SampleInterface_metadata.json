@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/examples/InterfaceExample.sol": "SampleInterface"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/examples/InterfaceExample.sol": {
+			"keccak256": "0xfc93b77c1c79fa3ac8320429c01f7352d77b1f40eeeb4ecef7a0881c1c3838f5",
+			"urls": [
+				"bzz-raw://a0b6fe01c47740af0311cbe96aeef70df5c8f9e9ffc6da7f1cef8d249cf832cd",
+				"dweb:/ipfs/QmStc8Hw8rvjPK6XEGKdjHBQnCvYmixtkmn3PYWxY1ak5S"
+			]
+		}
+	},
+	"version": 1
+}

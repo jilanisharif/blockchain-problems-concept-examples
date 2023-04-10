@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cols",
+						"type": "uint256"
+					}
+				],
+				"name": "make2DAddressGrid",
+				"outputs": [
+					{
+						"internalType": "address[][]",
+						"name": "",
+						"type": "address[][]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cols",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "make2DIntGrid",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArrayExerciseProblem.sol": "GridMaker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArrayExerciseProblem.sol": {
+			"keccak256": "0x95dfd72b89025086a5c1dd41d32db3d1e69a375aca1ce2fa7f57d16b9257d718",
+			"urls": [
+				"bzz-raw://35160e332db4d2e7e591eebc5f24c1e0cb437b764deebd3618f75ba98eba5714",
+				"dweb:/ipfs/Qmdg7XzQ2CogkLkaEzCLfnKmAuz2f7TjhDpxLgUwwpBsWf"
+			]
+		}
+	},
+	"version": 1
+}

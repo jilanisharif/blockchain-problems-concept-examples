@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "numbers",
+						"type": "int256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "uNumbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getMax",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/examples/LibraryExample.sol": "Example"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/examples/LibraryExample.sol": {
+			"keccak256": "0x300e9ac1de0f194510ed1e5ce69be15610029b4e36ed66da30711be605e5d4c7",
+			"urls": [
+				"bzz-raw://4b3e319609ade281e96ce7596796454cd91557ab89456c572794c223b9e4e32a",
+				"dweb:/ipfs/QmP7BwLrDaoYC4nXboJLuePaR3vGGCsYsv6bNDqUehiYw8"
+			]
+		}
+	},
+	"version": 1
+}

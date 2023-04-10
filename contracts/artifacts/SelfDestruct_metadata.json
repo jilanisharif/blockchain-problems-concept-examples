@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "checkOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "destruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SelfDestructExample.sol": "SelfDestruct"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SelfDestructExample.sol": {
+			"keccak256": "0xa8598f21dd5f8b7d17e9974ed3991cae7763bfc1e367f750376a18df35e9c893",
+			"urls": [
+				"bzz-raw://716c1db2dc99d8c9c56daf1170015aa36113a367a9f847e400b8a91fd779533e",
+				"dweb:/ipfs/QmTSUUZRcHjEfK84kA1hhq1izVJELi4qp41vcBvpEKPfLc"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum FancyShirts.Size",
+						"name": "size",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum FancyShirts.Color",
+						"name": "color",
+						"type": "uint8"
+					}
+				],
+				"name": "buyShirt",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "colors",
+				"outputs": [
+					{
+						"internalType": "enum FancyShirts.Color",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum FancyShirts.Size",
+						"name": "size",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum FancyShirts.Color",
+						"name": "color",
+						"type": "uint8"
+					}
+				],
+				"name": "getShirtPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum FancyShirts.Size",
+						"name": "size",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum FancyShirts.Color",
+						"name": "color",
+						"type": "uint8"
+					}
+				],
+				"name": "getShirts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sizes",
+				"outputs": [
+					{
+						"internalType": "enum FancyShirts.Size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/problems/EnumProblem.sol": "FancyShirts"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/problems/EnumProblem.sol": {
+			"keccak256": "0xf48782b0d90d26659bef424377fb71ffa0ffb221738fb83eacac3f5f5176f49b",
+			"urls": [
+				"bzz-raw://55572e23e4fc1e3790224386d85d62e6d8136a5e0a66e01f2bb03ea594b06a68",
+				"dweb:/ipfs/QmXiRofqsWb3KFghaE4s3HGCWsT5tCLDZfhUK4FqtgBcih"
+			]
+		}
+	},
+	"version": 1
+}
